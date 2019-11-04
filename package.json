@@ -1,0 +1,31 @@
+{
+  "name": "hw8",
+  "version": "1.0.0",
+  "description": "gallery",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelanieSyu/hw8.git"
+  },
+  "author": "Milana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelanieSyu/hw8/issues"
+  },
+  "homepage": "https://github.com/MelanieSyu/hw8#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "bootstrap-less": "3.3.8",
+    "browser-sync": "2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-less": "4.0.1",
+    "jquery": "^3.4.1",
+    "popper.js": "1.16.0"
+  }
+}
