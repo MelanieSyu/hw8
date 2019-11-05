@@ -131,12 +131,12 @@ body {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: rgb(250, 193, 7);////////////////////////
+    color: rgb(250, 193, 7);
     padding: 10px 0;
     height: 150px;
     font-size: 25px;
 }
-//////modal window
+
 .modal-content, .caption {
     animation-name: zoom;
     animation-duration: 0.6s;
@@ -146,7 +146,7 @@ body {
     from {transform:scale(0)}
     to {transform:scale(1)}
 }
-///////btn close in gallery
+
 .close {
     position: absolute;
     top: 170px;
@@ -163,7 +163,7 @@ body {
     }
 }
 
-/* 100% ширина экрана на маленьком экрана */
+
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
@@ -172,14 +172,20 @@ body {
 
 .texter {
     & h1 {
-       text-indent: 350px;
+       text-align: center;
        color: white;
-       text-shadow: 3px 3px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+       text-shadow: 3px 3px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372;
        color: rgb(250, 193, 7); 
     }
 
     & p {
         text-indent: 50px;
-        color: rgb(241, 240, 151);
+        font-style: italic;
+        color: rgb(250, 193, 7);
+        border: 1px solid #732372;
+        border-radius: 12px;
+        padding: 50px;
+        width: 1010px;
+        height: 200px;
     }
 }
