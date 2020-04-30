@@ -25,7 +25,7 @@
     "gulp-cli": "^2.2.0",
     "gulp-concat": "2.6.1",
     "gulp-less": "4.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "1.16.0"
   }
 }
